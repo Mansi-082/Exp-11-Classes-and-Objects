@@ -1,24 +1,46 @@
 # Experiment 11
+## Theory:
+A class is a blueprint for creating objects. 
+Defining a Class: A class in C++ is a user-defined type that groups data (attributes) and functions (methods) into one unit. It acts as a blueprint for creating objects, which are instances of the class. Classes enable object-oriented principles such as encapsulation and abstraction.
+Function/Method Inside a Class: Methods in a class are functions that operate on the class's data members. They define the actions that objects of the class can perform and have access to both public and private members of the class.
+Public and Private Variables in Class: Public members are accessible outside the class, while private members are restricted to within the class. Public members allow interaction with the class's data, and private members protect sensitive data from direct access, ensuring encapsulation.
+
 ## Program 1
 ### Aim: 
-Swap the numbers using call by value
+Defining a Class
 ### Software used: 
 Visual Studio Code
-### Theory:
-In the call-by-value mechanism, when a function is called, a copy of the actual arguments is passed to the function. The function works with these copies, and any modifications to the parameters inside the function do not affect the original variables outside the function. Call by value is simple and safe, as it prevents accidental changes to the original data, but it can be inefficient when passing large data structures.
 ### Output:
-![output]()
+![output](DefiningClass.jpg)
 ### Conclusion:
-We learned about the call by value operation in C++. 
+We learned how to define a class in C++. 
 
 ## Program 2
 ### Aim: 
-Swap the numbers using call by reference. 
+Function/Method inside Class 
 ### Software used: 
 Visual Studio Code
-### Theory:
-In the call-by-reference mechanism, instead of passing a copy of the arguments, the function receives references (or pointers) to the original variables. Any changes made to the parameters inside the function will directly affect the original variables. This method is more efficient for large data structures and allows functions to modify the caller's variables, but it requires caution to avoid unintended side effects.
 ### Output:
-![output]()
+![output](MethodInsideClass.jpg)
 ### Conclusion:
-We learned about the call by reference in C++. 
+We learned about methods inside a class in C++. 
+
+## Program 3
+### Aim: 
+Concept of Public and Private Variables in Class
+### Software used: 
+Visual Studio Code
+### Output:
+![output](PublicPrivateVariables.jpg)
+### Conclusion:
+We learned about the types of variables inside a class in C++.
+
+## Program 4
+### Aim: 
+To write code for the given output
+### Software used: 
+Visual Studio Code
+### Output:
+![output](CodeForGivenQuestion.jpg)
+### Conclusion:
+We learned how to use classes to write the required code. 
